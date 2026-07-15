@@ -6,7 +6,7 @@ toc_label: Contents
 ---
 
 {% if site.data['archery_marshal'] %}
-  {% assign archery_marshal = site.data['archery_marshal'].data | sort: "Name" %}
+  {% assign archery_marshal = site.data['archery_marshal'].data | sort: "name" %}
 
 {% else %}
   {% assign archery_marshal = "" %}
