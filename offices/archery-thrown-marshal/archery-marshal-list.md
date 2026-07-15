@@ -33,7 +33,7 @@ toc_label: Contents
 
 <table>
   <tr><th>SCA Name</th><th>Archery Marshal</th><th>Thrown weapons Marshal</th><th>Authorising Marshal</th></tr>
- {% for itemAll in archery_marshal %}{% if itemAll.area == "Insulae Draconis" %} <tr><td> {{ itemAll.name }} </td><td style="font-size:14pt"> {{ itemAll['target-archery'] }} </td><td style="font-size:14pt"> {{ itemAll['thrown-weapons'] }} </td><td style="font-size:14pt"> {{ itemAll.Authorising }} </td></tr> {% endif %}{% endfor %} 
+ {% for itemAll in archery_marshal %}{% if itemAll.area == "Insulae Draconis" %} <tr><td> {{ itemAll.name }} </td><td style="font-size:14pt"> {{ itemAll['target-archery'] }} </td><td style="font-size:14pt"> {{ itemAll['thrown-weapons'] }} </td><td style="font-size:14pt"> {{ itemAll.authorising }} </td></tr> {% endif %}{% endfor %} 
 </table>
 
 ## Nordmark
